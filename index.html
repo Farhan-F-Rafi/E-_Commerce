@@ -55,7 +55,108 @@
       </ul>
     </nav>
     <!-- navbar -->
-    <main><h2>HOME PAGE</h2></main>
+
+    <!-- header -->
+    <header class="header">
+      <div>
+        <marquee class="header__text" behavior="" direction=""
+          >100% Sales Going on
+        </marquee>
+      </div>
+      <div class="features flex-space-around">
+        <article class="delivery feature__card">
+          <i class="fa-solid fa-truck-fast fa-2x"></i>
+          <h4>7 Day Delivery</h4>
+        </article>
+        <article class="support feature__card">
+          <i class="fa-solid fa-headset fa-2x"></i>
+          <h4>24/7 Support</h4>
+        </article>
+        <article class="safepayment feature__card">
+          <i class="fa-solid fa-credit-card fa-2x feature__icon"></i>
+          <h4>Safe Payment</h4>
+        </article>
+      </div>
+    </header>
+
+    <!-- header -->
+
+    <main class="flex-center">
+      <!-- sidebar -->
+      <div class="sidebar">
+        <div class="category">
+          <h3 class="section_title">Category</h3>
+          <ul class="list">
+            <li class="list__item">
+              <label for="phones">
+                <input type="checkbox" name="phones" id="phones" />Phones
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="tablets">
+                <input type="checkbox" name="tablets" id="tablets" />Tablets
+              </label>
+            </li>
+
+            <li class="list__item">
+              <label for="TV">
+                <input type="checkbox" name="TV" id="TV" />TV
+              </label>
+            </li>
+
+            <li class="list__item">
+              <label for="computers">
+                <input
+                  type="checkbox"
+                  name="computers"
+                  id="computers"
+                />Computers
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="headsphones">
+                <input
+                  type="checkbox"
+                  name="headphones"
+                  id="headsphones"
+                />Headphones
+              </label>
+            </li>
+          </ul>
+        </div>
+        <div class="price_section">
+          <h3 class="section_title">Prices</h3>
+          <ul class="list">
+            <li class="list__item">
+              <label for="price1">
+                <input
+                  type="checkbox"
+                  name="price1"
+                  id="price1"
+                  value="[0,20]"
+                />
+                $0-$20
+              </label>
+            </li>
+            <li class="list__item">
+              <label for="price2">
+                <input type="checkbox" name="price2" id="price2" />
+                $21-$50
+              </label>
+            </li>
+
+            <li class="list__item">
+              <label for="price3">
+                <input type="checkbox" name="price3" id="price3" />
+                $51-$100
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- sidebar -->
+      <div class="main_content">Main content</div>
+    </main>
     <!-- footer -->
     <footer class="flex-space-around">
       <div class="flex-space-around">
@@ -70,15 +171,11 @@
         <button class="btn btn-subscribe">SUBSCRIBE</button>
       </div>
       <div>
-        <p>&copy;Copyright 2024 FarhanCom.All rights Reserved </p>
+        <p>&copy;Copyright 2024 FarhanCom.All rights Reserved</p>
       </div>
     </footer>
 
     <!-- footer -->
-
-
-
-
 
     <script src="scripts/index.js"></script>
   </body>
